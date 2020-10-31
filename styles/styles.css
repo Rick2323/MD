@@ -1,0 +1,42 @@
+body{    
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+}
+
+.nav{
+    display: flex;
+    background-color: #343a40;
+}
+
+.navBarImg{
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+}
+
+.navBar{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    list-style: none;
+}
+
+.navBarItem{
+    margin: auto;
+}
+.navBarItem:hover {
+    background-color: #707579;
+  }
+
+.navBarItemLink{
+    margin: 20px;
+    font-size: large;
+    color: #f5f5f5;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.content{
+    padding-left: 10px;
+}
