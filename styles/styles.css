@@ -17,6 +17,8 @@ body{
 }
 
 .navBar{
+    margin: 0;
+    padding: 0;
     display: -webkit-box;
     display: -ms-flexbox;
     list-style: none;
